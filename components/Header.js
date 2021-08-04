@@ -10,9 +10,9 @@ import {
 const Header = () => {
     return (
         <header className='sticky top-0 z-50 grid grid-cols-3 bg-white
-        shadow-md p-5 md:px-10'>
+        shadow-md p-2 sm:p-5 md:px-10'>
             <div className="relative flex item-center h-10 cursor-pointer 
-            my-auto"
+            my-auto mr-2"
             >
                 <Image 
                     src='https://links.papareact.com/qd3'
@@ -24,8 +24,8 @@ const Header = () => {
             <div className='flex items-center border-2 rounded-full py-2 
             md:border-2'
             >
-                <input className='flex-grow pl-5 bg-transparent outline-none
-                text-sm text-gray-600 placeholder-gray-400' 
+                <input className='flex-grow pl-2 sm:pl-5 bg-transparent outline-none
+                text-xs sm:text-sm text-gray-600 placeholder-gray-400' 
                     type='text' 
                     placeholder='Start your search' 
                 />
