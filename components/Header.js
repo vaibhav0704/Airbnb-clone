@@ -94,7 +94,7 @@ const Header = ({ placeholder }) => {
             {searchInput && (
                 <div className='flex flex-col col-span-3 mx-auto'>
                     <DateRangePicker 
-                        className="w-screen"
+                        className='w-screen sm:w-full'
                         ranges={[selectionRange]}
                         minDate={new Date()}
                         rangeColors={[ '#FD5B61' ]}
