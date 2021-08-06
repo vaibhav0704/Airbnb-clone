@@ -43,7 +43,7 @@ const Header = () => {
                 location: searchInput,
                 startDate: startDate.toISOString(),
                 endDate: endDate.toISOString(),
-                noOfGuests
+                noOfGuests,
             }
         })
     }
